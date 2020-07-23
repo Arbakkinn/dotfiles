@@ -1,6 +1,7 @@
 alias copy='xclip -sel clip'
 alias ll='ls -l'
 alias cat='bat --style=plain'
+alias ls='exa'
 
 # Navigation
 alias ..='cd ..'
