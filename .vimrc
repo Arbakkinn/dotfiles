@@ -17,6 +17,7 @@ Bundle "scrooloose/nerdtree"
 Bundle "Valloric/YouCompleteMe"
 Bundle "fatih/vim-go"
 Bundle "chr4/nginx.vim"
+Bundle 'flazz/vim-colorschemes'
 
 call vundle#end()
 filetype plugin indent on
@@ -59,3 +60,5 @@ map <F7> :NERDTreeToggle<CR>
 
 " sudo write this
 cmap W! w !sudo tee % >/dev/null
+
+colorscheme abyss
